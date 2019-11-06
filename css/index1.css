@@ -1,0 +1,119 @@
+@media screen and (min-width:1280px) and (max-width:2000px)
+{
+body
+{
+  background-color:#FFFFFF;
+}
+#title
+{
+  text-align: center;
+}
+#statusbar
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #2699FB;
+}
+.status
+{
+  float: left;
+  margin: 10px;
+}
+
+#navigation .status a
+ {
+   display: block;
+   width: 160px;
+   height: 40px;
+   text-align: center;
+   color: white;
+   padding: 20px 30px;
+   text-decoration: none;
+
+}
+.status a:hover
+{
+  background-color: #707070;
+}
+#maincontent
+{
+  margin: 20px;
+  margin-left: 40px;
+  padding-right: 40px;
+  font-family: sans-serif;
+  padding: 30px;
+  background-color: #F5F5F5;
+}
+
+#maintitle
+{
+  text-align: center;
+}
+#secondairycontent
+{
+  margin: 20px;
+  margin-top:0px;
+  margin-left: 40px;
+  padding: 30px;
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+
+  width: 60%;
+}
+#sportcontent
+{
+  margin: 20px;
+  margin-left: 40px;
+  padding: 30px;
+  background-color: #F5F5F5;
+  font-family: sans-serif;
+  width: 90%;
+}
+#referalcontent
+{
+  margin: 20px;
+  margin-left: 40px;
+  padding: 30px;
+  width:50%;
+  background-color: #F5F5F5;
+  font-family: sans-serif;
+}
+#contactcontent
+{
+  margin: 20px;
+  margin-left: 40px;
+  padding: 30px;
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+}
+#schoenP
+{
+  width: 100%;
+  align: center;
+}
+.par1
+{
+  float left;
+  width: 50%;
+}
+.par0
+{
+  float: left;
+  width: 95%;
+}
+#fotoG
+{
+  width: 420px;
+  margin: 20px;
+  position: relative;
+  top: -200px;
+  left: 680px;
+}
+header
+{
+ text-align: left;
+}
+
+}
