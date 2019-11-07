@@ -3,18 +3,30 @@
 body
 {
   background-color:#FFFFFF;
+  font-family: sans-serif;
 }
 #title
 {
   text-align: center;
 }
-#statusbar
+.statusbar
 {
   list-style-type: none;
   margin: 0px;
   padding: 10px;
+  color: white;
   overflow: hidden;
   background-color: #2699FB;
+}
+#statusbarH
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 29px;
+  color: white;
+  overflow: hidden;
+  background-color: #2699FB;
+  float: right;
 }
 .status
 {
@@ -25,18 +37,20 @@ body
 #navigation .status a
  {
    display: block;
-   width: 160px;
+   width: 120px;
    height: 40px;
    text-align: center;
    color: white;
-   padding: 20px 30px;
+   padding: 0px 30px;
    text-decoration: none;
-
+   border-style: solid;
+   border width: 1px;
 }
 .status a:hover
 {
   background-color: #707070;
 }
+
 #maincontent
 {
   margin: 20px;
@@ -49,17 +63,15 @@ body
 
 #maintitle
 {
-  text-align: center;
+  text-align:justify;
 }
 #secondairycontent
 {
   margin: 20px;
-  margin-top:0px;
   margin-left: 40px;
   padding: 30px;
   font-family: sans-serif;
   background-color: #F5F5F5;
-
   width: 60%;
 }
 #sportcontent
@@ -88,32 +100,49 @@ body
   font-family: sans-serif;
   background-color: #F5F5F5;
 }
-#schoenP
+#Header
 {
   width: 100%;
   align: center;
 }
-.par1
+#HaarlemHeader
 {
   float left;
-  width: 50%;
+  width: 60%;
 }
-.par0
+#WinkelenPar
 {
   float: left;
-  width: 95%;
+  width: 60%;
+
 }
-#fotoG
+#photo2
 {
-  width: 420px;
+  width: 600px;
+}
+#kaart
+{
+  width:350px;
   margin: 20px;
-  position: relative;
-  top: -200px;
-  left: 680px;
+}
+#Patronaat
+{
+  width: 350px;
+  margin: 20px;
+}
+.sportfoto
+{
+  width: 100px;
+  margin: 10px;
+}
+#cookies
+{
+  backgroud-collor: lightgray;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
 }
 header
 {
  text-align: left;
-}
-
 }
