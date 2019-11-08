@@ -1,7 +1,7 @@
-@media screen and (min-width:1280px) and (max-width:2000px)
-{
+
 body
 {
+  width: auto;
   background-color:#FFFFFF;
   font-family: sans-serif;
 }
@@ -100,10 +100,19 @@ body
   font-family: sans-serif;
   background-color: #F5F5F5;
 }
+#myVideo
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  heigt: auto;
+}
 #Header
 {
   width: 100%;
   align: center;
+
 }
 #HaarlemHeader
 {
