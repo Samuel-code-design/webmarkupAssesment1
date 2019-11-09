@@ -2,11 +2,15 @@
 body
 {
   width: auto;
-  background-color:#FFFFFF;
+  background-color:#F5F5F5;
   font-family: sans-serif;
 }
 #title
 {
+  text-align: center;
+}
+#StadTitle{
+  font-size: 23px;
   text-align: center;
 }
 .statusbar
@@ -18,11 +22,12 @@ body
   overflow: hidden;
   background-color: #2699FB;
 }
+
 #statusbarH
 {
   list-style-type: none;
   margin: 0px;
-  padding: 29px;
+  padding: 35.2px;
   color: white;
   overflow: hidden;
   background-color: #2699FB;
@@ -31,108 +36,124 @@ body
 .status
 {
   float: left;
-  margin: 10px;
+  margin: 17px;
 }
-
 #navigation .status a
  {
    display: block;
    width: 120px;
-   height: 40px;
+   height: 45px;
    text-align: center;
    color: white;
-   padding: 0px 30px;
+   padding: 0px 0px;
    text-decoration: none;
-   border-style: solid;
-   border width: 1px;
+   font-size: 16px;
 }
 .status a:hover
 {
-  background-color: #707070;
+  background-color: #444444;
+  height: 100%;
 }
-
-#maincontent
-{
+#Header{
+  width: 100%;
+  align: center;
+}
+#winkelenTitle{
+font-size:16px;
+}
+.tietel{
+  text-align: center;
+  color: white;
+  display: block;
+  width:100%;
+  font-size: 1.5em;
+  background-color: #2699FB;
+}
+#maincontent{
   margin: 20px;
-  margin-left: 40px;
+  margin-left: 12%;
   padding-right: 40px;
   font-family: sans-serif;
   padding: 30px;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
+  width: 75%;
+  float: center;
+  font-size: 14px;
 }
-
-#maintitle
-{
-  text-align:justify;
+#HaarlemHeader{
+  text-align: center;
 }
-#secondairycontent
-{
+#secondairycontent{
   margin: 20px;
-  margin-left: 40px;
-  padding: 30px;
+  margin-left: 12%;
+  padding-right: 40px;
   font-family: sans-serif;
-  background-color: #F5F5F5;
-  width: 60%;
+  padding: 30px;
+  background-color: #FFFFFF;
+  width: 75%;
+  float: center;
+  font-size: 14px;
 }
-#sportcontent
-{
+#OudeStadHeader{
+  text-align: center;
+}
+#sportcontent{
   margin: 20px;
-  margin-left: 40px;
-  padding: 30px;
-  background-color: #F5F5F5;
+  margin-bottom: 40px;
+  margin-left: 12%;
   font-family: sans-serif;
-  width: 90%;
+  padding: 30px;
+  background-color: #FFFFFF;
+  width: 75%;
+  float: center;
+  font-size: 14px;
 }
-#referalcontent
-{
+#sportHeader{
+  text-align: center;
+}
+.fotos{
+  list-style-type: none
+}
+#ulSport{
+  position: relative;
+  text-align: center;
+}
+#referalcontent{
   margin: 20px;
-  margin-left: 40px;
+  margin-left: 12%;
+  padding-right: 40px;
+  font-family: sans-serif;
   padding: 30px;
-  width:50%;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
+  width: 75%;
+  float: center;
+}
+#contactcontent{
+}
+#contactform{
+  width: 50%;
+  margin-left: 25%;
   font-family: sans-serif;
 }
-#contactcontent
-{
-  margin: 20px;
-  margin-left: 40px;
-  padding: 30px;
-  font-family: sans-serif;
-  background-color: #F5F5F5;
-}
-#myVideo
-{
+#myVideo{
   position: absolute;
   right: 0;
   bottom: 0;
   width: 100%;
   heigt: auto;
 }
-#Header
-{
-  width: 100%;
-  align: center;
-
-}
-#HaarlemHeader
-{
-  float left;
-  width: 60%;
-}
-#WinkelenPar
-{
+#WinkelenPar{
   float: left;
   width: 60%;
-
 }
-#photo2
-{
+#photo2{
   width: 600px;
 }
-#kaart
-{
+#kaart{
   width:350px;
   margin: 20px;
+  border-style: solid;
+  border-width: 1px;
 }
 #Patronaat
 {
@@ -141,8 +162,9 @@ body
 }
 .sportfoto
 {
-  width: 100px;
-  margin: 10px;
+  width: 200px;
+  height: auto;
+  margin: 5px;
 }
 #cookies
 {
