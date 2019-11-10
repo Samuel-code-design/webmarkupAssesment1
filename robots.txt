@@ -1,0 +1,4 @@
+# Groep 1
+Sitemap: http://taekwon.eu/649186/sitemap.xml
+User-agent: *
+Disallow: /forbidden/
