@@ -1,0 +1,4 @@
+student name: Samuel Brouwer
+student number: 649186
+student class: INF1A
+URL student GitHub repository: https://github.com/Samuel-code-design/webmarkupAssesment1.git
